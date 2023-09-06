@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.content {
+    width: 70%; /* Ajuste a largura da área de conteúdo conforme necessário */
+}
+
+.contact-info, .education, .experience {
+    margin-top: 20px;
+}
+
+.contact-info h2, .education h2, .experience h2 {
+    font-size: 28px;
+}
+
+.contact-info p, .education p, .experience p {
+    font-size: 18px;
+}
+
+.image {
+    width: 30%; /* Ajuste a largura da área da imagem conforme necessário */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}

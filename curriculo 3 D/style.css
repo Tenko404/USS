@@ -1,0 +1,67 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do container principal */
+.container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #77a8be;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilização de parágrafos */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilização das seções */
+.contact, .education, .experience, .skills {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Estilização da lista de habilidades */
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilização dos links */
+a {
+    color: #94c6e7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização da imagem */
+img {
+    max-width: 100%;
+    height: auto;
+}
