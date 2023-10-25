@@ -39,7 +39,6 @@ function convertTemperature() {
     }
     }
 
-    // Display result
     var resultElement = document.getElementById("result");
     resultElement.textContent = convertedTemperature.toFixed(2) + " " + toUnit;
 }
